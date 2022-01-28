@@ -128,53 +128,53 @@ function start(){
 }
 function animalSorteado(animal){
     
-    if(animal < 5 && animal>= 1)
+    if(animal < 5 && animal>0)
         return 0;
-    else if(animal<9)
+    else if(animal<9 && animal>0)
         return 1;
-    else if (animal<13)
+    else if (animal<13 && animal>0)
         return 2;
-    else if (animal<17)
+    else if (animal<17 && animal>0)
         return 3;
-    else if (animal<21)
+    else if (animal<21 && animal>0)
         return 4;
-    else if (animal<25)
+    else if (animal<25 && animal>0)
         return 5;
-    else if (animal<29)
+    else if (animal<29 && animal>0)
         return 6;
-    else if (animal<33)
+    else if (animal<33 && animal>0)
         return 7;
-    else if (animal<37)
+    else if (animal<37 && animal>0)
         return 8;
-    else if (animal<41)
+    else if (animal<41 && animal>0)
         return 9;
-    else if (animal<45)
+    else if (animal<45 && animal>0)
         return 10;
-    else if (animal<49)
+    else if (animal<49 && animal>0)
         return 11;
-    else if (animal<53)
+    else if (animal<53 && animal>0)
         return 12;
-    else if (animal<57)
+    else if (animal<57 && animal>0)
         return 13;
-    else if (animal<61)
+    else if (animal<61 && animal>0)
         return 14;
-    else if (animal<65)
+    else if (animal<65 && animal>0)
         return 15;
-    else if (animal<69)
+    else if (animal<69 && animal>0)
         return 16;
-    else if (animal<73)
+    else if (animal<73 && animal>0)
         return 17;
-    else if (animal<77)
+    else if (animal<77 && animal>0)
         return 18;
-    else if (animal<81)
+    else if (animal<81 && animal>0)
         return 19;
-    else if (animal<85)
+    else if (animal<85 && animal>0)
         return 20;
-    else if (animal<89)
+    else if (animal<89 && animal>0)
         return 21;
-    else if (animal<93)
+    else if (animal<93 && animal>0)
         return 22;
-    else if (animal<97)
+    else if (animal<97 && animal>0)
         return 23;
     else
         return 24;
@@ -223,28 +223,7 @@ function iniciarSorteio(){
    }
     
 }
-/*
-function addPlayer(){
 
-    let validPlayer = addInfoOfPlayer();
-    if(!validPlayer) {
-        alert("algum valor invalido, tente novamente");
-        return;
-    }
-   
-    let newHtml = "";
-    let count = 0;
-    for (const iterator of numPlayersArray) { //joga os players na tela
-        newHtml += (count == 0)?"<tr>":"";
-        newHtml+= iterator.getHtml;
-        newHtml += (count != 4)?"":"</tr>";
-        count++;
-        count = count%5;
-    }
-    tablePlayers.innerHTML = newHtml;
-    console.log(numPlayersArray);
-  
-}*/ 
 
 
 start();
