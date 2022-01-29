@@ -13,7 +13,7 @@ const animalsArray = [{animalName:"avestruz",animalImage: "assets/avestruz.jpeg"
                         {animalName:"cobra",animalImage: "assets/cobra.jpg"},
                         {animalName:"coelho",animalImage: "assets/coelho.jpg"},
                         {animalName:"cavalo",animalImage: "assets/cavalo.jpg"},
-                        {animalName:"elefante",animalImage: "assets/elefante.jpeg"},
+                        {animalName:"elefante",animalImage: "assets/elefante.jpg"},
                         {animalName:"galo",animalImage: "assets/galo.jpg"},
                         {animalName:"gato",animalImage: "assets/gato.jpg"},
                         {animalName:"jacaré",animalImage: "assets/jacare.jpg"},
